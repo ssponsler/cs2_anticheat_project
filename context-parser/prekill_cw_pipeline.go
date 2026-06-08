@@ -1,5 +1,11 @@
 package main
 
+// prekill_cw_pipeline runs prekill_cw.go across a demo tree and merges the
+// resulting rows into labeled JSONL and CSV datasets.
+//
+// It infers cheater/no_cheater/unknown labels from the demo path, can keep or
+// skip unlabeled demos, and optionally preserves the per-demo temporary files.
+
 import (
 	"bufio"
 	"encoding/csv"

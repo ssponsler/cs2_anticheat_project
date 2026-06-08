@@ -1,5 +1,20 @@
 package main
 
+// build_input_tensors converts merged prekill JSONL into model-ready samples.
+//
+// Input:
+//   - merged rows from prekill_cw_pipeline.go or equivalent JSONL containing
+//     prekill window features plus optional scraper-joined fields.
+//
+// Output:
+//   - tensor JSONL with one row per kill window
+//   - fixed-length NumPy arrays for direct training
+//   - convenience NPZ bundle and vocabulary/metadata artifacts
+//
+// The generated tensors combine per-tick sequence channels (X_seq) with global
+// context features (X_global) and labels (y). Sequence windows are padded or
+// truncated to seq-len.
+
 import (
 	"archive/zip"
 	"bufio"
