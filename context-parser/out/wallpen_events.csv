@@ -1,0 +1,4 @@
+tick,round,killer_name,killer_steamid64,victim_name,victim_steamid64,weapon,penetrated_objects,distance,is_headshot,through_smoke
+15057,3,drank was here lol,76561199124208816,Zax,76561198148904733,R8 Revolver,1,6.056259,false,false
+40822,8,Tora,76561198074972187,#FreeLee,76561198264607853,AK-47,1,19.531294,false,false
+60852,12,#FreeLee,76561198264607853,Zax,76561198148904733,M4A1,1,22.005127,false,false

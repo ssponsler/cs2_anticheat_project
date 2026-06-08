@@ -1,0 +1,80 @@
+{
+  "global_feature_names": [
+    "kill_distance",
+    "pct_victim_spotted",
+    "avg_rank_numeric",
+    "avg_rank_available",
+    "map_id",
+    "weapon_id",
+    "angular_offset_at_kill_deg",
+    "killer_avg_speed_units_per_tick",
+    "penetrated_objects",
+    "is_headshot",
+    "through_smoke",
+    "killer_scoped_at_kill",
+    "hidden_tracking_exists",
+    "hidden_angle_range_deg",
+    "hidden_tracking_convergence_strength",
+    "audible_event_count",
+    "audible_recent_flag",
+    "wallbang_flag",
+    "close_range_flag",
+    "long_range_flag",
+    "spotted_low_flag",
+    "suspicious_alignment_flag"
+  ],
+  "map_vocab": {
+    "\u003cunknown\u003e": 0
+  },
+  "num_samples": 105,
+  "numpy_files": {
+    "map_vocab": "map_vocab.json",
+    "weapon_vocab": "weapon_vocab.json",
+    "x_global": "x_global.npy",
+    "x_seq": "x_seq.npy",
+    "x_seq_mask": "x_seq_mask.npy",
+    "y": "y.npy"
+  },
+  "schema_version": "player_kill_window_tensor_v1",
+  "seq_feature_names": [
+    "ang_offset_deg",
+    "spotted_flag",
+    "killer_speed",
+    "killer_scoped_flag",
+    "victim_audible_any_flag"
+  ],
+  "weapon_vocab": {
+    "\u003cunknown\u003e": 0,
+    "ak-47": 9,
+    "awp": 10,
+    "desert eagle": 5,
+    "famas": 15,
+    "galil ar": 4,
+    "glock-18": 1,
+    "m4a1": 7,
+    "m4a4": 11,
+    "mac-10": 3,
+    "mp5-sd": 13,
+    "r8 revolver": 8,
+    "sg 553": 12,
+    "ssg 08": 14,
+    "usp-s": 2,
+    "zeus x27": 6
+  },
+  "x_global_shape": [
+    105,
+    22
+  ],
+  "x_seq_mask_shape": [
+    105,
+    192
+  ],
+  "x_seq_shape": [
+    105,
+    192,
+    5
+  ],
+  "y_shape": [
+    105
+  ]
+}

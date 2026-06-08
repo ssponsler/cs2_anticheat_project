@@ -1,0 +1,6 @@
+tick,round,killer_name,killer_steamid64,victim_name,victim_steamid64,weapon,penetrated_objects,distance,is_headshot,through_smoke
+3566,1,Zax,76561198148904733,Nibuz,76561199441630373,Glock-18,0,21.033426,true,true
+4609,1,StarvinMonkey,76561197962044745,drank was here lol,76561199124208816,USP-S,0,25.799917,true,true
+24274,5,Nibuz,76561199441630373,Zax,76561198148904733,M4A1,0,11.435819,false,true
+24626,5,Nibuz,76561199441630373,Tora,76561198074972187,M4A1,0,18.648108,false,true
+30032,6,Nibuz,76561199441630373,Tora,76561198074972187,AK-47,0,15.305927,false,true
